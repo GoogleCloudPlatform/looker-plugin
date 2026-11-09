@@ -1,157 +1,157 @@
 # Changelog
 
-## [0.3.11](https://github.com/gemini-cli-extensions/looker/compare/0.3.10...0.3.11) (2026-09-05)
+## [0.3.11](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.10...0.3.11) (2026-09-05)
 
 
 ### Features
 
-* **plugin:** migrate from generated skills to the prebuilt MCP server ([#164](https://github.com/gemini-cli-extensions/looker/issues/164)) ([4a8edc0](https://github.com/gemini-cli-extensions/looker/commit/4a8edc0912897a3bc9e9edfb85e9ec4914f38182))
+* **plugin:** migrate from generated skills to the prebuilt MCP server ([#164](https://github.com/GoogleCloudPlatform/looker-plugin/issues/164)) ([4a8edc0](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4a8edc0912897a3bc9e9edfb85e9ec4914f38182))
 
-## [0.3.10](https://github.com/gemini-cli-extensions/looker/compare/0.3.9...0.3.10) (2026-08-05)
-
-
-### Features
-
-* **plugin:** support agent plugin spec ([#158](https://github.com/gemini-cli-extensions/looker/issues/158)) ([28e53e6](https://github.com/gemini-cli-extensions/looker/commit/28e53e6da4e91f84d8a9cccf46eae638c50a727e))
-
-## [0.3.9](https://github.com/gemini-cli-extensions/looker/compare/0.3.8...0.3.9) (2026-08-04)
+## [0.3.10](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.9...0.3.10) (2026-08-05)
 
 
 ### Features
 
-* **prebuilt:** Migrate skills-repo toolsets to `kind: group` with descriptions ([mcp-toolbox#​3595](https://redirect.github.com/googleapis/mcp-toolbox/issues/3595)) ([b895b36](https://redirect.github.com/googleapis/mcp-toolbox/commit/b895b36b10eb81dc609216fc5f76ae800d1c65f4)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **server:** Add `/healthz` endpoint for container health checks ([mcp-toolbox#​3060](https://redirect.github.com/googleapis/mcp-toolbox/issues/3060)) ([d5aefbc](https://redirect.github.com/googleapis/mcp-toolbox/commit/d5aefbc9e9bd914042224daaf0d4f9257ac01c88)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **skills:** Add `--group` flag to generate a skill from one group ([mcp-toolbox#​3585](https://redirect.github.com/googleapis/mcp-toolbox/issues/3585)) ([c1abd4f](https://redirect.github.com/googleapis/mcp-toolbox/commit/c1abd4fc4fcdfa52ba20aaf7d92424ca189c7282)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **skills:** Default `--name` to `--group`, `--toolset`, or single `--prebuilt` name ([mcp-toolbox#​3586](https://redirect.github.com/googleapis/mcp-toolbox/issues/3586)) ([2b33b08](https://redirect.github.com/googleapis/mcp-toolbox/commit/2b33b08c3a220657c8ab6a3e0ce1274badc2fe15)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **skills:** Make description optional during skills gen ([mcp-toolbox#​3584](https://redirect.github.com/googleapis/mcp-toolbox/issues/3584)) ([d0a8f14](https://redirect.github.com/googleapis/mcp-toolbox/commit/d0a8f14cbec1f9770da7f82a07b4e480f5a4c6a7)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **tool/looker:** Add `get_field_value_suggestions` tool ([mcp-toolbox#​3696](https://redirect.github.com/googleapis/mcp-toolbox/issues/3696)) ([3debe81](https://redirect.github.com/googleapis/mcp-toolbox/commit/3debe8113fe2c9af012a7369658bb7a9e64f40f4)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* Add `groups` support ([mcp-toolbox#​3605](https://redirect.github.com/googleapis/mcp-toolbox/issues/3605)) ([e75ec3b](https://redirect.github.com/googleapis/mcp-toolbox/commit/e75ec3b5c84dfad5b69f2d42ec2d3408f22e2463)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* Update draft specs to 2026-07-28 ([mcp-toolbox#​3699](https://redirect.github.com/googleapis/mcp-toolbox/issues/3699)) ([cf128ff](https://redirect.github.com/googleapis/mcp-toolbox/commit/cf128ff94c4d39aea1eb17caa706ff0b73d8c780)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **plugin:** support agent plugin spec ([#158](https://github.com/GoogleCloudPlatform/looker-plugin/issues/158)) ([28e53e6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/28e53e6da4e91f84d8a9cccf46eae638c50a727e))
+
+## [0.3.9](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.8...0.3.9) (2026-08-04)
+
+
+### Features
+
+* **prebuilt:** Migrate skills-repo toolsets to `kind: group` with descriptions ([mcp-toolbox#​3595](https://redirect.github.com/googleapis/mcp-toolbox/issues/3595)) ([b895b36](https://redirect.github.com/googleapis/mcp-toolbox/commit/b895b36b10eb81dc609216fc5f76ae800d1c65f4)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **server:** Add `/healthz` endpoint for container health checks ([mcp-toolbox#​3060](https://redirect.github.com/googleapis/mcp-toolbox/issues/3060)) ([d5aefbc](https://redirect.github.com/googleapis/mcp-toolbox/commit/d5aefbc9e9bd914042224daaf0d4f9257ac01c88)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **skills:** Add `--group` flag to generate a skill from one group ([mcp-toolbox#​3585](https://redirect.github.com/googleapis/mcp-toolbox/issues/3585)) ([c1abd4f](https://redirect.github.com/googleapis/mcp-toolbox/commit/c1abd4fc4fcdfa52ba20aaf7d92424ca189c7282)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **skills:** Default `--name` to `--group`, `--toolset`, or single `--prebuilt` name ([mcp-toolbox#​3586](https://redirect.github.com/googleapis/mcp-toolbox/issues/3586)) ([2b33b08](https://redirect.github.com/googleapis/mcp-toolbox/commit/2b33b08c3a220657c8ab6a3e0ce1274badc2fe15)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **skills:** Make description optional during skills gen ([mcp-toolbox#​3584](https://redirect.github.com/googleapis/mcp-toolbox/issues/3584)) ([d0a8f14](https://redirect.github.com/googleapis/mcp-toolbox/commit/d0a8f14cbec1f9770da7f82a07b4e480f5a4c6a7)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **tool/looker:** Add `get_field_value_suggestions` tool ([mcp-toolbox#​3696](https://redirect.github.com/googleapis/mcp-toolbox/issues/3696)) ([3debe81](https://redirect.github.com/googleapis/mcp-toolbox/commit/3debe8113fe2c9af012a7369658bb7a9e64f40f4)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* Add `groups` support ([mcp-toolbox#​3605](https://redirect.github.com/googleapis/mcp-toolbox/issues/3605)) ([e75ec3b](https://redirect.github.com/googleapis/mcp-toolbox/commit/e75ec3b5c84dfad5b69f2d42ec2d3408f22e2463)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* Update draft specs to 2026-07-28 ([mcp-toolbox#​3699](https://redirect.github.com/googleapis/mcp-toolbox/issues/3699)) ([cf128ff](https://redirect.github.com/googleapis/mcp-toolbox/commit/cf128ff94c4d39aea1eb17caa706ff0b73d8c780)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
 
 
 ### Bug Fixes
 
-* **server:** Sort default toolset alphabetically for stable ordering ([mcp-toolbox#​3539](https://redirect.github.com/googleapis/mcp-toolbox/issues/3539)) ([e5da24c](https://redirect.github.com/googleapis/mcp-toolbox/commit/e5da24c5dfd2208c7e947a20e58a2e2c82236241)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **tools/looker:** Enhance looker-run-dashboard to handle result maker structures and merge queries ([mcp-toolbox#​3698](https://redirect.github.com/googleapis/mcp-toolbox/issues/3698)) ([7666bc0](https://redirect.github.com/googleapis/mcp-toolbox/commit/7666bc08debdc4f81e1c6f95f41a1dbd9db3b365)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* **tools/looker:** Log request/response traces at debug, not error ([mcp-toolbox#​3552](https://redirect.github.com/googleapis/mcp-toolbox/issues/3552)) ([c3ad445](https://redirect.github.com/googleapis/mcp-toolbox/commit/c3ad4451e8592606ce686d042623f9aa8142317f)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* Re-add name validation to tools name ([mcp-toolbox#​3654](https://redirect.github.com/googleapis/mcp-toolbox/issues/3654)) ([944f6ce](https://redirect.github.com/googleapis/mcp-toolbox/commit/944f6ce97bc77a92a052de92b88f0fc09ac7578c)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
-* Re-add tool validation during startup ([mcp-toolbox#​3705](https://redirect.github.com/googleapis/mcp-toolbox/issues/3705)) ([25ce953](https://redirect.github.com/googleapis/mcp-toolbox/commit/25ce953559a201183f066f566dca5fb597efca39)) ([47cc435](https://github.com/gemini-cli-extensions/looker/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **server:** Sort default toolset alphabetically for stable ordering ([mcp-toolbox#​3539](https://redirect.github.com/googleapis/mcp-toolbox/issues/3539)) ([e5da24c](https://redirect.github.com/googleapis/mcp-toolbox/commit/e5da24c5dfd2208c7e947a20e58a2e2c82236241)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **tools/looker:** Enhance looker-run-dashboard to handle result maker structures and merge queries ([mcp-toolbox#​3698](https://redirect.github.com/googleapis/mcp-toolbox/issues/3698)) ([7666bc0](https://redirect.github.com/googleapis/mcp-toolbox/commit/7666bc08debdc4f81e1c6f95f41a1dbd9db3b365)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* **tools/looker:** Log request/response traces at debug, not error ([mcp-toolbox#​3552](https://redirect.github.com/googleapis/mcp-toolbox/issues/3552)) ([c3ad445](https://redirect.github.com/googleapis/mcp-toolbox/commit/c3ad4451e8592606ce686d042623f9aa8142317f)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* Re-add name validation to tools name ([mcp-toolbox#​3654](https://redirect.github.com/googleapis/mcp-toolbox/issues/3654)) ([944f6ce](https://redirect.github.com/googleapis/mcp-toolbox/commit/944f6ce97bc77a92a052de92b88f0fc09ac7578c)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
+* Re-add tool validation during startup ([mcp-toolbox#​3705](https://redirect.github.com/googleapis/mcp-toolbox/issues/3705)) ([25ce953](https://redirect.github.com/googleapis/mcp-toolbox/commit/25ce953559a201183f066f566dca5fb597efca39)) ([47cc435](https://github.com/GoogleCloudPlatform/looker-plugin/commit/47cc435cdbd2f70f095cf138a80b14bc659b59c6))
 
-## [0.3.8](https://github.com/gemini-cli-extensions/looker/compare/0.3.7...0.3.8) (2026-07-21)
+## [0.3.8](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.7...0.3.8) (2026-07-21)
 
 
 ### Features
 
-* **arcadedb:** Add arcadedb source and tools ([mcp-toolbox#​2961](https://redirect.github.com/googleapis/mcp-toolbox/issues/2961)) ([351de00](https://redirect.github.com/googleapis/mcp-toolbox/commit/351de00781a08999e735356624370ea1e7414419)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
-* **cmd/internal,docs:** Add warning log that prebuilt tools are for developer use ([mcp-toolbox#​3451](https://redirect.github.com/googleapis/mcp-toolbox/issues/3451)) ([8cffcef](https://redirect.github.com/googleapis/mcp-toolbox/commit/8cffcef2b109ba913bd63b87a61f75db9e957d2f)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
-* Add `quotaProject` support for BigQuery and Looker conversational analytics ([mcp-toolbox#​2610](https://redirect.github.com/googleapis/mcp-toolbox/issues/2610)) ([f3e7ca9](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3e7ca9a8f49ce79f5b6fbef23c45a643c4e9d44)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* **arcadedb:** Add arcadedb source and tools ([mcp-toolbox#​2961](https://redirect.github.com/googleapis/mcp-toolbox/issues/2961)) ([351de00](https://redirect.github.com/googleapis/mcp-toolbox/commit/351de00781a08999e735356624370ea1e7414419)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* **cmd/internal,docs:** Add warning log that prebuilt tools are for developer use ([mcp-toolbox#​3451](https://redirect.github.com/googleapis/mcp-toolbox/issues/3451)) ([8cffcef](https://redirect.github.com/googleapis/mcp-toolbox/commit/8cffcef2b109ba913bd63b87a61f75db9e957d2f)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* Add `quotaProject` support for BigQuery and Looker conversational analytics ([mcp-toolbox#​2610](https://redirect.github.com/googleapis/mcp-toolbox/issues/2610)) ([f3e7ca9](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3e7ca9a8f49ce79f5b6fbef23c45a643c4e9d44)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
 
 
 ### Bug Fixes
 
-* **parameters:** Report the offending value in array/map type errors ([mcp-toolbox#​3512](https://redirect.github.com/googleapis/mcp-toolbox/issues/3512)) ([4034d6f](https://redirect.github.com/googleapis/mcp-toolbox/commit/4034d6f7b820962495622dbedc64fea968c14963)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
-* **parameters:** Return an error instead of panicking on a non-string type field ([mcp-toolbox#​3516](https://redirect.github.com/googleapis/mcp-toolbox/issues/3516)) ([66a0d53](https://redirect.github.com/googleapis/mcp-toolbox/commit/66a0d53b9fd11d6ee90b28ae1c411fc8685ab990)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
-* **source/looker:** Dynamically resolve public host URL ([mcp-toolbox#​3603](https://redirect.github.com/googleapis/mcp-toolbox/issues/3603)) ([0428afd](https://redirect.github.com/googleapis/mcp-toolbox/commit/0428afd3e75339701a9dedb5199b89a001457349)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
-* **tool/looker-run-dashboard:** Add support for SQL Runner query tiles ([mcp-toolbox#​3594](https://redirect.github.com/googleapis/mcp-toolbox/issues/3594)) ([0975d0a](https://redirect.github.com/googleapis/mcp-toolbox/commit/0975d0ac8bc5042f51a8b01eb5514d3ea138f145)) ([82d9f48](https://github.com/gemini-cli-extensions/looker/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* **parameters:** Report the offending value in array/map type errors ([mcp-toolbox#​3512](https://redirect.github.com/googleapis/mcp-toolbox/issues/3512)) ([4034d6f](https://redirect.github.com/googleapis/mcp-toolbox/commit/4034d6f7b820962495622dbedc64fea968c14963)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* **parameters:** Return an error instead of panicking on a non-string type field ([mcp-toolbox#​3516](https://redirect.github.com/googleapis/mcp-toolbox/issues/3516)) ([66a0d53](https://redirect.github.com/googleapis/mcp-toolbox/commit/66a0d53b9fd11d6ee90b28ae1c411fc8685ab990)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* **source/looker:** Dynamically resolve public host URL ([mcp-toolbox#​3603](https://redirect.github.com/googleapis/mcp-toolbox/issues/3603)) ([0428afd](https://redirect.github.com/googleapis/mcp-toolbox/commit/0428afd3e75339701a9dedb5199b89a001457349)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
+* **tool/looker-run-dashboard:** Add support for SQL Runner query tiles ([mcp-toolbox#​3594](https://redirect.github.com/googleapis/mcp-toolbox/issues/3594)) ([0975d0a](https://redirect.github.com/googleapis/mcp-toolbox/commit/0975d0ac8bc5042f51a8b01eb5514d3ea138f145)) ([82d9f48](https://github.com/GoogleCloudPlatform/looker-plugin/commit/82d9f48ecc19ca30135f1f9c384eb1dfe26da01a))
 
-## [0.3.7](https://github.com/gemini-cli-extensions/looker/compare/0.3.6...0.3.7) (2026-07-01)
+## [0.3.7](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.6...0.3.7) (2026-07-01)
 
 
 ### Features
 
-* **release:** Add digital signature to Toolbox binaries ([mcp-toolbox#​3528](https://redirect.github.com/googleapis/mcp-toolbox/issues/3528)) ([3f0f0af](https://redirect.github.com/googleapis/mcp-toolbox/commit/3f0f0af29007929b01e95ee2caef4fd2015d5f12)) ([4c78941](https://github.com/gemini-cli-extensions/looker/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
-* **tools/looker:** Support complex filter\_expression parameter in queries ([mcp-toolbox#​3494](https://redirect.github.com/googleapis/mcp-toolbox/issues/3494)) ([997fb8c](https://redirect.github.com/googleapis/mcp-toolbox/commit/997fb8c39a4cb60173bcc8543118057e77e0fce4)) ([4c78941](https://github.com/gemini-cli-extensions/looker/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
-* **tools/looker:** Support dynamic\_fields parameter in queries ([mcp-toolbox#​3507](https://redirect.github.com/googleapis/mcp-toolbox/issues/3507)) ([cd22b89](https://redirect.github.com/googleapis/mcp-toolbox/commit/cd22b893573f87c0d5406490b71ddf317a07dc7b)) ([4c78941](https://github.com/gemini-cli-extensions/looker/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
-* Support MCP 2026 draft specs ([mcp-toolbox#​3544](https://redirect.github.com/googleapis/mcp-toolbox/issues/3544)) ([d12eaa8](https://redirect.github.com/googleapis/mcp-toolbox/commit/d12eaa856bad70b49ba2b7b9f2882cffbf81220f)) ([4c78941](https://github.com/gemini-cli-extensions/looker/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
+* **release:** Add digital signature to Toolbox binaries ([mcp-toolbox#​3528](https://redirect.github.com/googleapis/mcp-toolbox/issues/3528)) ([3f0f0af](https://redirect.github.com/googleapis/mcp-toolbox/commit/3f0f0af29007929b01e95ee2caef4fd2015d5f12)) ([4c78941](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
+* **tools/looker:** Support complex filter\_expression parameter in queries ([mcp-toolbox#​3494](https://redirect.github.com/googleapis/mcp-toolbox/issues/3494)) ([997fb8c](https://redirect.github.com/googleapis/mcp-toolbox/commit/997fb8c39a4cb60173bcc8543118057e77e0fce4)) ([4c78941](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
+* **tools/looker:** Support dynamic\_fields parameter in queries ([mcp-toolbox#​3507](https://redirect.github.com/googleapis/mcp-toolbox/issues/3507)) ([cd22b89](https://redirect.github.com/googleapis/mcp-toolbox/commit/cd22b893573f87c0d5406490b71ddf317a07dc7b)) ([4c78941](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
+* Support MCP 2026 draft specs ([mcp-toolbox#​3544](https://redirect.github.com/googleapis/mcp-toolbox/issues/3544)) ([d12eaa8](https://redirect.github.com/googleapis/mcp-toolbox/commit/d12eaa856bad70b49ba2b7b9f2882cffbf81220f)) ([4c78941](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
 
 
 ### Bug Fixes
 
-* **tool/looker-create-view-from-table:** Correct Looker API payload structure ([mcp-toolbox#​3515](https://redirect.github.com/googleapis/mcp-toolbox/issues/3515)) ([18c539c](https://redirect.github.com/googleapis/mcp-toolbox/commit/18c539c5935c2a496e7e5da68241b4307d8f3e6e)) ([4c78941](https://github.com/gemini-cli-extensions/looker/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
-* **tools/looker-conversational-analytics:** Validate explore\_references shape instead of panicking ([mcp-toolbox#​3531](https://redirect.github.com/googleapis/mcp-toolbox/issues/3531)) ([b67419d](https://redirect.github.com/googleapis/mcp-toolbox/commit/b67419d34bfc437b6eace5abaaf02ae1339d83ee)) ([4c78941](https://github.com/gemini-cli-extensions/looker/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
+* **tool/looker-create-view-from-table:** Correct Looker API payload structure ([mcp-toolbox#​3515](https://redirect.github.com/googleapis/mcp-toolbox/issues/3515)) ([18c539c](https://redirect.github.com/googleapis/mcp-toolbox/commit/18c539c5935c2a496e7e5da68241b4307d8f3e6e)) ([4c78941](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
+* **tools/looker-conversational-analytics:** Validate explore\_references shape instead of panicking ([mcp-toolbox#​3531](https://redirect.github.com/googleapis/mcp-toolbox/issues/3531)) ([b67419d](https://redirect.github.com/googleapis/mcp-toolbox/commit/b67419d34bfc437b6eace5abaaf02ae1339d83ee)) ([4c78941](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4c789418c258ed4159afc2c70f0d0934af918ea1))
 
-## [0.3.6](https://github.com/gemini-cli-extensions/looker/compare/0.3.5...0.3.6) (2026-06-22)
+## [0.3.6](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.5...0.3.6) (2026-06-22)
 
 
 ### Features
 
-* **auth/google:** Require audience or clientId for mcpEnabled ([mcp-toolbox#​3450](https://redirect.github.com/googleapis/mcp-toolbox/issues/3450)) ([59f7b6e](https://redirect.github.com/googleapis/mcp-toolbox/commit/59f7b6e8eaceffca042cb7e2f2b6e5e9284b6bc3)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **mcp:** Add URL parameter binding for HTTP transport ([mcp-toolbox#​3112](https://redirect.github.com/googleapis/mcp-toolbox/issues/3112)) ([0cc7b37](https://redirect.github.com/googleapis/mcp-toolbox/commit/0cc7b37b733b6a99dad5281af4024b26d730106a)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **scylladb:** Adding support for ScyllaDB source and tool ([mcp-toolbox#​3119](https://redirect.github.com/googleapis/mcp-toolbox/issues/3119)) ([2dada83](https://redirect.github.com/googleapis/mcp-toolbox/commit/2dada8306c8737e445c4f8cd3d213b72713c1834)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **server:** Add support for toolset filtering in prebuilt CLI flag ([mcp-toolbox#​3245](https://redirect.github.com/googleapis/mcp-toolbox/issues/3245)) ([7cc4f65](https://redirect.github.com/googleapis/mcp-toolbox/commit/7cc4f65a8e767e0da37cf21f0ff2568b38d32b8e)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **skills:** Generate skills offline without live source connections ([mcp-toolbox#​3388](https://redirect.github.com/googleapis/mcp-toolbox/issues/3388)) ([4c860b6](https://redirect.github.com/googleapis/mcp-toolbox/commit/4c860b66b03f0ebf86205e73cd8521ad90ccebe4)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **skills:** Tolerate missing env vars during offline skills-generate ([mcp-toolbox#​3399](https://redirect.github.com/googleapis/mcp-toolbox/issues/3399)) ([ea5d3e5](https://redirect.github.com/googleapis/mcp-toolbox/commit/ea5d3e5b9e60bf808e10d21b522954d76f7741b6)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **tools:** Decouple tool initialization from sources ([mcp-toolbox#​3355](https://redirect.github.com/googleapis/mcp-toolbox/issues/3355)) ([32a24e3](https://redirect.github.com/googleapis/mcp-toolbox/commit/32a24e35b5bf107bcf5e89af2a9b7af3740747ee)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* Enable per source level flags for sql commenter ([mcp-toolbox#​3465](https://redirect.github.com/googleapis/mcp-toolbox/issues/3465)) ([ecce6b7](https://redirect.github.com/googleapis/mcp-toolbox/commit/ecce6b7bb551b947b0951cd684cce627a4b6cf1b)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **auth/google:** Require audience or clientId for mcpEnabled ([mcp-toolbox#​3450](https://redirect.github.com/googleapis/mcp-toolbox/issues/3450)) ([59f7b6e](https://redirect.github.com/googleapis/mcp-toolbox/commit/59f7b6e8eaceffca042cb7e2f2b6e5e9284b6bc3)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **mcp:** Add URL parameter binding for HTTP transport ([mcp-toolbox#​3112](https://redirect.github.com/googleapis/mcp-toolbox/issues/3112)) ([0cc7b37](https://redirect.github.com/googleapis/mcp-toolbox/commit/0cc7b37b733b6a99dad5281af4024b26d730106a)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **scylladb:** Adding support for ScyllaDB source and tool ([mcp-toolbox#​3119](https://redirect.github.com/googleapis/mcp-toolbox/issues/3119)) ([2dada83](https://redirect.github.com/googleapis/mcp-toolbox/commit/2dada8306c8737e445c4f8cd3d213b72713c1834)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **server:** Add support for toolset filtering in prebuilt CLI flag ([mcp-toolbox#​3245](https://redirect.github.com/googleapis/mcp-toolbox/issues/3245)) ([7cc4f65](https://redirect.github.com/googleapis/mcp-toolbox/commit/7cc4f65a8e767e0da37cf21f0ff2568b38d32b8e)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **skills:** Generate skills offline without live source connections ([mcp-toolbox#​3388](https://redirect.github.com/googleapis/mcp-toolbox/issues/3388)) ([4c860b6](https://redirect.github.com/googleapis/mcp-toolbox/commit/4c860b66b03f0ebf86205e73cd8521ad90ccebe4)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **skills:** Tolerate missing env vars during offline skills-generate ([mcp-toolbox#​3399](https://redirect.github.com/googleapis/mcp-toolbox/issues/3399)) ([ea5d3e5](https://redirect.github.com/googleapis/mcp-toolbox/commit/ea5d3e5b9e60bf808e10d21b522954d76f7741b6)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **tools:** Decouple tool initialization from sources ([mcp-toolbox#​3355](https://redirect.github.com/googleapis/mcp-toolbox/issues/3355)) ([32a24e3](https://redirect.github.com/googleapis/mcp-toolbox/commit/32a24e35b5bf107bcf5e89af2a9b7af3740747ee)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* Enable per source level flags for sql commenter ([mcp-toolbox#​3465](https://redirect.github.com/googleapis/mcp-toolbox/issues/3465)) ([ecce6b7](https://redirect.github.com/googleapis/mcp-toolbox/commit/ecce6b7bb551b947b0951cd684cce627a4b6cf1b)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
 
 
 ### Bug Fixes
 
-* **auth/dataplex:** Fix failing source with service account credentials ([mcp-toolbox#​3369](https://redirect.github.com/googleapis/mcp-toolbox/issues/3369)) ([ba4deef](https://redirect.github.com/googleapis/mcp-toolbox/commit/ba4deef140358e5876d73d355d664f629f7aeccc)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **bigquery:** Wire maximumBytesBilled into prebuilt config ([mcp-toolbox#​3385](https://redirect.github.com/googleapis/mcp-toolbox/issues/3385)) ([4abbf6e](https://redirect.github.com/googleapis/mcp-toolbox/commit/4abbf6e82cc4af4c1903d9143337c965987475a9)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **config:** Add doc/line context to parse errors ([mcp-toolbox#​2957](https://redirect.github.com/googleapis/mcp-toolbox/issues/2957)) ([4b097da](https://redirect.github.com/googleapis/mcp-toolbox/commit/4b097daa2143817e55a9e557e8c1dea054bfc7b8)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **npm:** Source binary version from cmd/version.txt ([mcp-toolbox#​3417](https://redirect.github.com/googleapis/mcp-toolbox/issues/3417)) ([6ffbdec](https://redirect.github.com/googleapis/mcp-toolbox/commit/6ffbdecaea98db5c16dc9eeca8fb73e4bbc48102)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **prebuilt/alloydb-omni:** Require password env var explicitly ([mcp-toolbox#​3398](https://redirect.github.com/googleapis/mcp-toolbox/issues/3398)) ([fcbe3e7](https://redirect.github.com/googleapis/mcp-toolbox/commit/fcbe3e70d3d4e671e97e424187dba907d7c5b10b)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **server:** Fail if MCP auth is enabled together with enable-api ([mcp-toolbox#​3435](https://redirect.github.com/googleapis/mcp-toolbox/issues/3435)) ([a6ff910](https://redirect.github.com/googleapis/mcp-toolbox/commit/a6ff910a602adece11f0a6581d6211e5927f7182)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* **server:** Return errors instead of panicking in InitializeConfigs ([mcp-toolbox#​3397](https://redirect.github.com/googleapis/mcp-toolbox/issues/3397)) ([f48b01d](https://redirect.github.com/googleapis/mcp-toolbox/commit/f48b01dc1775e4583a06689a2e67fb06e5dd3c68)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* Bound MCP HTTP body size ([mcp-toolbox#​3216](https://redirect.github.com/googleapis/mcp-toolbox/issues/3216)) ([d4f4342](https://redirect.github.com/googleapis/mcp-toolbox/commit/d4f434251392fb597779a90a12c63d21533ea187)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
-* Escape delimiter characters in applyEscape to prevent SQL injection ([932519a](https://redirect.github.com/googleapis/mcp-toolbox/commit/932519a9551861bf5f18787dc43b20d06350343f)) ([6371c61](https://github.com/gemini-cli-extensions/looker/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **auth/dataplex:** Fix failing source with service account credentials ([mcp-toolbox#​3369](https://redirect.github.com/googleapis/mcp-toolbox/issues/3369)) ([ba4deef](https://redirect.github.com/googleapis/mcp-toolbox/commit/ba4deef140358e5876d73d355d664f629f7aeccc)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **bigquery:** Wire maximumBytesBilled into prebuilt config ([mcp-toolbox#​3385](https://redirect.github.com/googleapis/mcp-toolbox/issues/3385)) ([4abbf6e](https://redirect.github.com/googleapis/mcp-toolbox/commit/4abbf6e82cc4af4c1903d9143337c965987475a9)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **config:** Add doc/line context to parse errors ([mcp-toolbox#​2957](https://redirect.github.com/googleapis/mcp-toolbox/issues/2957)) ([4b097da](https://redirect.github.com/googleapis/mcp-toolbox/commit/4b097daa2143817e55a9e557e8c1dea054bfc7b8)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **npm:** Source binary version from cmd/version.txt ([mcp-toolbox#​3417](https://redirect.github.com/googleapis/mcp-toolbox/issues/3417)) ([6ffbdec](https://redirect.github.com/googleapis/mcp-toolbox/commit/6ffbdecaea98db5c16dc9eeca8fb73e4bbc48102)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **prebuilt/alloydb-omni:** Require password env var explicitly ([mcp-toolbox#​3398](https://redirect.github.com/googleapis/mcp-toolbox/issues/3398)) ([fcbe3e7](https://redirect.github.com/googleapis/mcp-toolbox/commit/fcbe3e70d3d4e671e97e424187dba907d7c5b10b)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **server:** Fail if MCP auth is enabled together with enable-api ([mcp-toolbox#​3435](https://redirect.github.com/googleapis/mcp-toolbox/issues/3435)) ([a6ff910](https://redirect.github.com/googleapis/mcp-toolbox/commit/a6ff910a602adece11f0a6581d6211e5927f7182)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* **server:** Return errors instead of panicking in InitializeConfigs ([mcp-toolbox#​3397](https://redirect.github.com/googleapis/mcp-toolbox/issues/3397)) ([f48b01d](https://redirect.github.com/googleapis/mcp-toolbox/commit/f48b01dc1775e4583a06689a2e67fb06e5dd3c68)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* Bound MCP HTTP body size ([mcp-toolbox#​3216](https://redirect.github.com/googleapis/mcp-toolbox/issues/3216)) ([d4f4342](https://redirect.github.com/googleapis/mcp-toolbox/commit/d4f434251392fb597779a90a12c63d21533ea187)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
+* Escape delimiter characters in applyEscape to prevent SQL injection ([932519a](https://redirect.github.com/googleapis/mcp-toolbox/commit/932519a9551861bf5f18787dc43b20d06350343f)) ([6371c61](https://github.com/GoogleCloudPlatform/looker-plugin/commit/6371c616c0eebff20e5621cab855fa4ecbcb9c20))
 
-## [0.3.5](https://github.com/gemini-cli-extensions/looker/compare/0.3.4...0.3.5) (2026-06-05)
-
-
-### Features
-
-* **deps:** update dependency googleapis/mcp-toolbox to v1.4.0 ([#134](https://github.com/gemini-cli-extensions/looker/issues/134)) ([c4abf79](https://github.com/gemini-cli-extensions/looker/commit/c4abf79e8d96a9a58efa5a209ed69fb050574cef))
-
-## [0.3.4](https://github.com/gemini-cli-extensions/looker/compare/0.3.3...0.3.4) (2026-05-22)
+## [0.3.5](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.4...0.3.5) (2026-06-05)
 
 
 ### Features
 
-* **deps:** update dependency googleapis/mcp-toolbox to v1.3.0 ([#128](https://github.com/gemini-cli-extensions/looker/issues/128)) ([97db429](https://github.com/gemini-cli-extensions/looker/commit/97db4299a352254798e59ddd141eb5e019c958a0))
+* **deps:** update dependency googleapis/mcp-toolbox to v1.4.0 ([#134](https://github.com/GoogleCloudPlatform/looker-plugin/issues/134)) ([c4abf79](https://github.com/GoogleCloudPlatform/looker-plugin/commit/c4abf79e8d96a9a58efa5a209ed69fb050574cef))
 
-## [0.3.3](https://github.com/gemini-cli-extensions/looker/compare/0.3.2...0.3.3) (2026-05-11)
+## [0.3.4](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.3...0.3.4) (2026-05-22)
 
 
 ### Features
 
-* Add support for HTTPS/TLS listener ([mcp-toolbox#​3126](https://redirect.github.com/googleapis/mcp-toolbox/issues/3126)) ([8bc385d](https://redirect.github.com/googleapis/mcp-toolbox/commit/8bc385d7d6fd9ed2ad13503d9feb503de0b512b1)) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* **deps:** update dependency googleapis/mcp-toolbox to v1.3.0 ([#128](https://github.com/GoogleCloudPlatform/looker-plugin/issues/128)) ([97db429](https://github.com/GoogleCloudPlatform/looker-plugin/commit/97db4299a352254798e59ddd141eb5e019c958a0))
+
+## [0.3.3](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.2...0.3.3) (2026-05-11)
+
+
+### Features
+
+* Add support for HTTPS/TLS listener ([mcp-toolbox#​3126](https://redirect.github.com/googleapis/mcp-toolbox/issues/3126)) ([8bc385d](https://redirect.github.com/googleapis/mcp-toolbox/commit/8bc385d7d6fd9ed2ad13503d9feb503de0b512b1)) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
 
 
 ### Bug Fixes
 
-* **mcp:** Implement router-level logger injection for MCP auth ([mcp-toolbox#​3067](https://redirect.github.com/googleapis/mcp-toolbox/issues/3067)) ([ccc7cf5](https://redirect.github.com/googleapis/mcp-toolbox/commit/ccc7cf5ee8a1bacb6b57faf41ae5a1cc3da5299e)) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
-* **tool/looker-conversational-analytics:** OAuth token in GDA payload fix ([mcp-toolbox#​3058](https://redirect.github.com/googleapis/mcp-toolbox/issues/3058)) ([6632d96](https://redirect.github.com/googleapis/mcp-toolbox/commit/6632d96724c5076ee44eb248d7de5c7d2d80d7b1)) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
-* **tools/looker:** Fix OAuth for Converational Analytics ([mcp-toolbox#​3044](https://redirect.github.com/googleapis/mcp-toolbox/issues/3044)) ([f9e3e55](https://redirect.github.com/googleapis/mcp-toolbox/commit/f9e3e55d42ae9f5d1ecbda4fb7c9a4f3d42451b1)) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
-* Allow converting string literal block with list ([mcp-toolbox#​3050](https://redirect.github.com/googleapis/mcp-toolbox/issues/3050)) ([36ab2a9](https://redirect.github.com/googleapis/mcp-toolbox/commit/36ab2a98f9f2d03c27eea389d2281bfc4581ffa1)), closes [mcp-toolbox#​3023](https://redirect.github.com/googleapis/mcp-toolbox/issues/3023) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
-* Prevent test.db from being created during unit tests ([mcp-toolbox#​3042](https://redirect.github.com/googleapis/mcp-toolbox/issues/3042)) ([d10d2ca](https://redirect.github.com/googleapis/mcp-toolbox/commit/d10d2caeb7c9eda7d17d6dbd9f63363b2bc23a7a)) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
-* Remove hardcoded \* allowed origin for sse ([mcp-toolbox#​3054](https://redirect.github.com/googleapis/mcp-toolbox/issues/3054)) ([c4c7bd9](https://redirect.github.com/googleapis/mcp-toolbox/commit/c4c7bd917e686de68e2be866cfe3872c3439efae)) ([51b0af6](https://github.com/gemini-cli-extensions/looker/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* **mcp:** Implement router-level logger injection for MCP auth ([mcp-toolbox#​3067](https://redirect.github.com/googleapis/mcp-toolbox/issues/3067)) ([ccc7cf5](https://redirect.github.com/googleapis/mcp-toolbox/commit/ccc7cf5ee8a1bacb6b57faf41ae5a1cc3da5299e)) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* **tool/looker-conversational-analytics:** OAuth token in GDA payload fix ([mcp-toolbox#​3058](https://redirect.github.com/googleapis/mcp-toolbox/issues/3058)) ([6632d96](https://redirect.github.com/googleapis/mcp-toolbox/commit/6632d96724c5076ee44eb248d7de5c7d2d80d7b1)) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* **tools/looker:** Fix OAuth for Converational Analytics ([mcp-toolbox#​3044](https://redirect.github.com/googleapis/mcp-toolbox/issues/3044)) ([f9e3e55](https://redirect.github.com/googleapis/mcp-toolbox/commit/f9e3e55d42ae9f5d1ecbda4fb7c9a4f3d42451b1)) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* Allow converting string literal block with list ([mcp-toolbox#​3050](https://redirect.github.com/googleapis/mcp-toolbox/issues/3050)) ([36ab2a9](https://redirect.github.com/googleapis/mcp-toolbox/commit/36ab2a98f9f2d03c27eea389d2281bfc4581ffa1)), closes [mcp-toolbox#​3023](https://redirect.github.com/googleapis/mcp-toolbox/issues/3023) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* Prevent test.db from being created during unit tests ([mcp-toolbox#​3042](https://redirect.github.com/googleapis/mcp-toolbox/issues/3042)) ([d10d2ca](https://redirect.github.com/googleapis/mcp-toolbox/commit/d10d2caeb7c9eda7d17d6dbd9f63363b2bc23a7a)) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
+* Remove hardcoded \* allowed origin for sse ([mcp-toolbox#​3054](https://redirect.github.com/googleapis/mcp-toolbox/issues/3054)) ([c4c7bd9](https://redirect.github.com/googleapis/mcp-toolbox/commit/c4c7bd917e686de68e2be866cfe3872c3439efae)) ([51b0af6](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51b0af60a26223ab501fbccd4159c2356f3b4206))
 
-## [0.3.2](https://github.com/gemini-cli-extensions/looker/compare/0.3.1...0.3.2) (2026-04-15)
+## [0.3.2](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.1...0.3.2) (2026-04-15)
 
 
 ### Bug Fixes
 
-* sync versions ([#123](https://github.com/gemini-cli-extensions/looker/issues/123)) ([664dd2b](https://github.com/gemini-cli-extensions/looker/commit/664dd2b77632eadcc0ab28820340d0ec9f67f410))
+* sync versions ([#123](https://github.com/GoogleCloudPlatform/looker-plugin/issues/123)) ([664dd2b](https://github.com/GoogleCloudPlatform/looker-plugin/commit/664dd2b77632eadcc0ab28820340d0ec9f67f410))
 
-## [0.3.1](https://github.com/gemini-cli-extensions/looker/compare/0.3.0...0.3.1) (2026-04-14)
+## [0.3.1](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.3.0...0.3.1) (2026-04-14)
 
 
 ### Features
 
-* add claude code plugin config ([#119](https://github.com/gemini-cli-extensions/looker/issues/119)) ([fdfa71e](https://github.com/gemini-cli-extensions/looker/commit/fdfa71edf2bc612ecb3c8bb1c6e24cfec4210291))
-* add codex plugin config ([#120](https://github.com/gemini-cli-extensions/looker/issues/120)) ([d82977f](https://github.com/gemini-cli-extensions/looker/commit/d82977f6fa571de7bb8580b8337fbff72ce485f0))
-* add support for skills ([#117](https://github.com/gemini-cli-extensions/looker/issues/117)) ([1a25629](https://github.com/gemini-cli-extensions/looker/commit/1a25629924fced666b9d944e03b38e032f1d7c03))
-* remove packaging workflow ([#118](https://github.com/gemini-cli-extensions/looker/issues/118)) ([2339663](https://github.com/gemini-cli-extensions/looker/commit/23396633376f0a09eabfc85205f2e59b89fde8fd))
+* add claude code plugin config ([#119](https://github.com/GoogleCloudPlatform/looker-plugin/issues/119)) ([fdfa71e](https://github.com/GoogleCloudPlatform/looker-plugin/commit/fdfa71edf2bc612ecb3c8bb1c6e24cfec4210291))
+* add codex plugin config ([#120](https://github.com/GoogleCloudPlatform/looker-plugin/issues/120)) ([d82977f](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d82977f6fa571de7bb8580b8337fbff72ce485f0))
+* add support for skills ([#117](https://github.com/GoogleCloudPlatform/looker-plugin/issues/117)) ([1a25629](https://github.com/GoogleCloudPlatform/looker-plugin/commit/1a25629924fced666b9d944e03b38e032f1d7c03))
+* remove packaging workflow ([#118](https://github.com/GoogleCloudPlatform/looker-plugin/issues/118)) ([2339663](https://github.com/GoogleCloudPlatform/looker-plugin/commit/23396633376f0a09eabfc85205f2e59b89fde8fd))
 
 
 ### Bug Fixes
 
-* **knowledge-catalog:** Rename dataplex to knowledge-catalog across docs ([mcp-toolbox#​3039](https://redirect.github.com/googleapis/mcp-toolbox/pull/3039)) ([45c05e3](https://redirect.github.com/googleapis/mcp-toolbox/commit/24ce6ce3bc6468d2b4b11a86b90ea223daa7e6cf)) ([d99b1f1](https://github.com/gemini-cli-extensions/looker/commit/d99b1f1975ecb2b7e5f8db621672a47abacef631))
-* **looker:** Convert configuration yaml to flat format ([mcp-toolbox#​3022](https://redirect.github.com/googleapis/mcp-toolbox/issues/3022)) ([45c05e3](https://redirect.github.com/googleapis/mcp-toolbox/commit/45c05e37eac867c5a444d950bc51fdf1b1b687ea)) ([d99b1f1](https://github.com/gemini-cli-extensions/looker/commit/d99b1f1975ecb2b7e5f8db621672a47abacef631))
+* **knowledge-catalog:** Rename dataplex to knowledge-catalog across docs ([mcp-toolbox#​3039](https://redirect.github.com/googleapis/mcp-toolbox/pull/3039)) ([45c05e3](https://redirect.github.com/googleapis/mcp-toolbox/commit/24ce6ce3bc6468d2b4b11a86b90ea223daa7e6cf)) ([d99b1f1](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d99b1f1975ecb2b7e5f8db621672a47abacef631))
+* **looker:** Convert configuration yaml to flat format ([mcp-toolbox#​3022](https://redirect.github.com/googleapis/mcp-toolbox/issues/3022)) ([45c05e3](https://redirect.github.com/googleapis/mcp-toolbox/commit/45c05e37eac867c5a444d950bc51fdf1b1b687ea)) ([d99b1f1](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d99b1f1975ecb2b7e5f8db621672a47abacef631))
 
-## [0.3.0](https://github.com/gemini-cli-extensions/looker/compare/0.2.4...0.3.0) (2026-04-10)
+## [0.3.0](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.2.4...0.3.0) (2026-04-10)
 
 
 ### ⚠ BREAKING CHANGES
@@ -160,53 +160,53 @@
 
 ### Features
 
-* **auth:** Support opaque token validation for `generic` authService ([mcp-toolbox#​2944](https://redirect.github.com/googleapis/mcp-toolbox/issues/2944)) ([c924701](https://redirect.github.com/googleapis/mcp-toolbox/commit/c924701adede95877594423d78b7ae72fe0b9c82)) ([569da80](https://github.com/gemini-cli-extensions/looker/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
-* **cloudsqlpg:** Run `SELECT 1` after successful connection attempt ([mcp-toolbox#​2997](https://redirect.github.com/googleapis/mcp-toolbox/issues/2997)) ([6ed9700](https://redirect.github.com/googleapis/mcp-toolbox/commit/6ed9700e15f08b31e65eb0afa605f4a8ea937e66)) ([569da80](https://github.com/gemini-cli-extensions/looker/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
-* **tools/looker:** refactor looker-git-branch tool into 5 separate tools ([mcp-toolbox#​2976](https://redirect.github.com/googleapis/mcp-toolbox/issues/2976)) ([569da80](https://github.com/gemini-cli-extensions/looker/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
-* **tools/looker:** Refactor looker-git-branch tool into 5 separate tools ([mcp-toolbox#​2976](https://redirect.github.com/googleapis/mcp-toolbox/issues/2976)) ([b2472d4](https://redirect.github.com/googleapis/mcp-toolbox/commit/b2472d4926dacc496fc6956185fb281b5e75f56f)) ([569da80](https://github.com/gemini-cli-extensions/looker/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
+* **auth:** Support opaque token validation for `generic` authService ([mcp-toolbox#​2944](https://redirect.github.com/googleapis/mcp-toolbox/issues/2944)) ([c924701](https://redirect.github.com/googleapis/mcp-toolbox/commit/c924701adede95877594423d78b7ae72fe0b9c82)) ([569da80](https://github.com/GoogleCloudPlatform/looker-plugin/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
+* **cloudsqlpg:** Run `SELECT 1` after successful connection attempt ([mcp-toolbox#​2997](https://redirect.github.com/googleapis/mcp-toolbox/issues/2997)) ([6ed9700](https://redirect.github.com/googleapis/mcp-toolbox/commit/6ed9700e15f08b31e65eb0afa605f4a8ea937e66)) ([569da80](https://github.com/GoogleCloudPlatform/looker-plugin/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
+* **tools/looker:** refactor looker-git-branch tool into 5 separate tools ([mcp-toolbox#​2976](https://redirect.github.com/googleapis/mcp-toolbox/issues/2976)) ([569da80](https://github.com/GoogleCloudPlatform/looker-plugin/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
+* **tools/looker:** Refactor looker-git-branch tool into 5 separate tools ([mcp-toolbox#​2976](https://redirect.github.com/googleapis/mcp-toolbox/issues/2976)) ([b2472d4](https://redirect.github.com/googleapis/mcp-toolbox/commit/b2472d4926dacc496fc6956185fb281b5e75f56f)) ([569da80](https://github.com/GoogleCloudPlatform/looker-plugin/commit/569da806c9e3ff7da46530c1d4efce4e647440bb))
 
-## [0.2.4](https://github.com/gemini-cli-extensions/looker/compare/0.2.3...0.2.4) (2026-04-08)
-
-
-### Features
-
-* **deps:** update dependency googleapis/mcp-toolbox to v0.32.0 ([#108](https://github.com/gemini-cli-extensions/looker/issues/108)) ([d87d416](https://github.com/gemini-cli-extensions/looker/commit/d87d41665cb5b6dd5a326ed0dae4f59fb907b36a))
-
-## [0.2.3](https://github.com/gemini-cli-extensions/looker/compare/0.2.2...0.2.3) (2026-03-27)
+## [0.2.4](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.2.3...0.2.4) (2026-04-08)
 
 
 ### Features
 
-* **deps:** update dependency googleapis/mcp-toolbox to v0.31.0 ([#104](https://github.com/gemini-cli-extensions/looker/issues/104)) ([a998679](https://github.com/gemini-cli-extensions/looker/commit/a99867935130f8a7c2ffc47a5f5e9bbb15ca55a6))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.32.0 ([#108](https://github.com/GoogleCloudPlatform/looker-plugin/issues/108)) ([d87d416](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d87d41665cb5b6dd5a326ed0dae4f59fb907b36a))
 
-## [0.2.2](https://github.com/gemini-cli-extensions/looker/compare/0.2.1...0.2.2) (2026-03-20)
+## [0.2.3](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.2.2...0.2.3) (2026-03-27)
 
 
 ### Features
 
-* **cli:** Add migrate subcommand ([mcp-toolbox#​2679](https://redirect.github.com/googleapis/mcp-toolbox/issues/2679)) ([12171f7](https://redirect.github.com/googleapis/mcp-toolbox/commit/12171f7a02bcd34ce647db10abdb79bb2dac7ace)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **cli:** Add serve subcommand ([mcp-toolbox#​2550](https://redirect.github.com/googleapis/mcp-toolbox/issues/2550)) ([1e2c7c7](https://redirect.github.com/googleapis/mcp-toolbox/commit/1e2c7c7804c67bebf5e2ee9b67c6feb6f05292fd)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **skill:** One skill per toolset ([mcp-toolbox#​2733](https://redirect.github.com/googleapis/mcp-toolbox/issues/2733)) ([5b85c65](https://redirect.github.com/googleapis/mcp-toolbox/commit/5b85c65960dba9bfaf4cadca6d44532a153976e1)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **tools/looker:** Support git\_branch tools for looker. ([mcp-toolbox#​2718](https://redirect.github.com/googleapis/mcp-toolbox/issues/2718)) ([70ed8a0](https://redirect.github.com/googleapis/mcp-toolbox/commit/70ed8a0dcb8e654b748a6e3e1c5ef283c26006da)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.31.0 ([#104](https://github.com/GoogleCloudPlatform/looker-plugin/issues/104)) ([a998679](https://github.com/GoogleCloudPlatform/looker-plugin/commit/a99867935130f8a7c2ffc47a5f5e9bbb15ca55a6))
+
+## [0.2.2](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.2.1...0.2.2) (2026-03-20)
+
+
+### Features
+
+* **cli:** Add migrate subcommand ([mcp-toolbox#​2679](https://redirect.github.com/googleapis/mcp-toolbox/issues/2679)) ([12171f7](https://redirect.github.com/googleapis/mcp-toolbox/commit/12171f7a02bcd34ce647db10abdb79bb2dac7ace)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **cli:** Add serve subcommand ([mcp-toolbox#​2550](https://redirect.github.com/googleapis/mcp-toolbox/issues/2550)) ([1e2c7c7](https://redirect.github.com/googleapis/mcp-toolbox/commit/1e2c7c7804c67bebf5e2ee9b67c6feb6f05292fd)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **skill:** One skill per toolset ([mcp-toolbox#​2733](https://redirect.github.com/googleapis/mcp-toolbox/issues/2733)) ([5b85c65](https://redirect.github.com/googleapis/mcp-toolbox/commit/5b85c65960dba9bfaf4cadca6d44532a153976e1)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **tools/looker:** Support git\_branch tools for looker. ([mcp-toolbox#​2718](https://redirect.github.com/googleapis/mcp-toolbox/issues/2718)) ([70ed8a0](https://redirect.github.com/googleapis/mcp-toolbox/commit/70ed8a0dcb8e654b748a6e3e1c5ef283c26006da)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
 
 
 ### Bug Fixes
 
-* **ci:** Implement conditional sharding logic in integration tests ([mcp-toolbox#​2763](https://redirect.github.com/googleapis/mcp-toolbox/issues/2763)) ([1528d7c](https://redirect.github.com/googleapis/mcp-toolbox/commit/1528d7c38dfaa30bdecbe59c79ba926fa6d18356)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **cloudloggingadmin:** Increase log injesting time and add auth test ([mcp-toolbox#​2772](https://redirect.github.com/googleapis/mcp-toolbox/issues/2772)) ([50b4457](https://redirect.github.com/googleapis/mcp-toolbox/commit/50b4457095ec4ac881b3b12719da24d35141f65d)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **oracle:** Normalize encoded proxy usernames in go-ora DSN ([mcp-toolbox#​2469](https://redirect.github.com/googleapis/mcp-toolbox/issues/2469)) ([b1333cd](https://redirect.github.com/googleapis/mcp-toolbox/commit/b1333cd27117655f8ab09f222721e14bea74b487)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **postgres:** Update execute-sql tool to avoid multi-statements parameter ([mcp-toolbox#​2707](https://redirect.github.com/googleapis/mcp-toolbox/issues/2707)) ([58bc772](https://redirect.github.com/googleapis/mcp-toolbox/commit/58bc772f882f0d9e00f403e73fbec812dd8a03ac)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **skills:** Improve flag validation and silence unit test output ([mcp-toolbox#​2759](https://redirect.github.com/googleapis/mcp-toolbox/issues/2759)) ([f3da6aa](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3da6aa5e23b609a1ac9ecc098bccea02f2388ab)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
-* **test:** Address flaky healthcare integration test run ([mcp-toolbox#​2742](https://redirect.github.com/googleapis/mcp-toolbox/issues/2742)) ([9590821](https://redirect.github.com/googleapis/mcp-toolbox/commit/9590821bc7d86c5cbacd29b21d4f85b427a87db4)) ([51c7551](https://github.com/gemini-cli-extensions/looker/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **ci:** Implement conditional sharding logic in integration tests ([mcp-toolbox#​2763](https://redirect.github.com/googleapis/mcp-toolbox/issues/2763)) ([1528d7c](https://redirect.github.com/googleapis/mcp-toolbox/commit/1528d7c38dfaa30bdecbe59c79ba926fa6d18356)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **cloudloggingadmin:** Increase log injesting time and add auth test ([mcp-toolbox#​2772](https://redirect.github.com/googleapis/mcp-toolbox/issues/2772)) ([50b4457](https://redirect.github.com/googleapis/mcp-toolbox/commit/50b4457095ec4ac881b3b12719da24d35141f65d)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **oracle:** Normalize encoded proxy usernames in go-ora DSN ([mcp-toolbox#​2469](https://redirect.github.com/googleapis/mcp-toolbox/issues/2469)) ([b1333cd](https://redirect.github.com/googleapis/mcp-toolbox/commit/b1333cd27117655f8ab09f222721e14bea74b487)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **postgres:** Update execute-sql tool to avoid multi-statements parameter ([mcp-toolbox#​2707](https://redirect.github.com/googleapis/mcp-toolbox/issues/2707)) ([58bc772](https://redirect.github.com/googleapis/mcp-toolbox/commit/58bc772f882f0d9e00f403e73fbec812dd8a03ac)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **skills:** Improve flag validation and silence unit test output ([mcp-toolbox#​2759](https://redirect.github.com/googleapis/mcp-toolbox/issues/2759)) ([f3da6aa](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3da6aa5e23b609a1ac9ecc098bccea02f2388ab)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
+* **test:** Address flaky healthcare integration test run ([mcp-toolbox#​2742](https://redirect.github.com/googleapis/mcp-toolbox/issues/2742)) ([9590821](https://redirect.github.com/googleapis/mcp-toolbox/commit/9590821bc7d86c5cbacd29b21d4f85b427a87db4)) ([51c7551](https://github.com/GoogleCloudPlatform/looker-plugin/commit/51c755100f398c2a40f19c60e3e2184b8a383176))
 
-## [0.2.1](https://github.com/gemini-cli-extensions/looker/compare/0.2.0...0.2.1) (2026-03-17)
+## [0.2.1](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.2.0...0.2.1) (2026-03-17)
 
 
 ### Features
 
-* **deps:** update dependency googleapis/mcp-toolbox to v0.29.0 ([#100](https://github.com/gemini-cli-extensions/looker/issues/100)) ([f1a3f68](https://github.com/gemini-cli-extensions/looker/commit/f1a3f681643ec4e5d5a6e50aeade4cc11555b7d3))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.29.0 ([#100](https://github.com/GoogleCloudPlatform/looker-plugin/issues/100)) ([f1a3f68](https://github.com/GoogleCloudPlatform/looker-plugin/commit/f1a3f681643ec4e5d5a6e50aeade4cc11555b7d3))
 
-## [0.2.0](https://github.com/gemini-cli-extensions/looker/compare/0.1.11...0.2.0) (2026-03-03)
+## [0.2.0](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.11...0.2.0) (2026-03-03)
 
 
 ### ⚠ BREAKING CHANGES
@@ -217,150 +217,150 @@
 
 ### Features
 
-* **cli/invoke:** Add support for direct tool invocation from CLI ([mcp-toolbox#​2353](https://redirect.github.com/googleapis/mcp-toolbox/issues/2353)) ([6e49ba4](https://redirect.github.com/googleapis/mcp-toolbox/commit/6e49ba436ef2390c13feaf902b29f5907acffb57)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **cli/skills:** Add support for generating agent skills from toolset ([mcp-toolbox#​2392](https://redirect.github.com/googleapis/mcp-toolbox/issues/2392)) ([80ef346](https://redirect.github.com/googleapis/mcp-toolbox/commit/80ef34621453b77bdf6a6016c354f102a17ada04)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **cloud-logging-admin:** Add source, tools, integration test and docs ([mcp-toolbox#​2137](https://redirect.github.com/googleapis/mcp-toolbox/issues/2137)) ([252fc30](https://redirect.github.com/googleapis/mcp-toolbox/commit/252fc3091af10d25d8d7af7e047b5ac87a5dd041)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **cockroachdb:** Add CockroachDB integration with cockroach-go ([mcp-toolbox#​2006](https://redirect.github.com/googleapis/mcp-toolbox/issues/2006)) ([1fdd99a](https://redirect.github.com/googleapis/mcp-toolbox/commit/1fdd99a9b609a5e906acce414226ff44d75d5975)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **embeddingModel:** Add embedding model to MCP handler ([mcp-toolbox#​2310](https://redirect.github.com/googleapis/mcp-toolbox/issues/2310)) ([e4f60e5](https://redirect.github.com/googleapis/mcp-toolbox/commit/e4f60e56335b755ef55b9553d3f40b31858ec8d9)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **prebuilt/cloud-sql:** Add create backup tool for Cloud SQL ([mcp-toolbox#​2141](https://redirect.github.com/googleapis/mcp-toolbox/issues/2141)) ([8e0fb03](https://redirect.github.com/googleapis/mcp-toolbox/commit/8e0fb0348315a80f63cb47b3c7204869482448f4)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **prebuilt/cloud-sql:** Add restore backup tool for Cloud SQL ([mcp-toolbox#​2171](https://redirect.github.com/googleapis/mcp-toolbox/issues/2171)) ([00c3e6d](https://redirect.github.com/googleapis/mcp-toolbox/commit/00c3e6d8cba54e2ab6cb271c7e6b378895df53e1)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **prebuiltconfigs/alloydb-omni:** Implement Alloydb omni dataplane tools ([mcp-toolbox#​2340](https://redirect.github.com/googleapis/mcp-toolbox/issues/2340)) ([e995349](https://redirect.github.com/googleapis/mcp-toolbox/commit/e995349ea0756c700d188b8f04e9459121219f0c)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **server:** Add Tool call error categories ([mcp-toolbox#​2387](https://redirect.github.com/googleapis/mcp-toolbox/issues/2387)) ([32cb4db](https://redirect.github.com/googleapis/mcp-toolbox/commit/32cb4db712d27579c1bf29e61cbd0bed02286c28)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **tools:** Add `valueFromParam` support to Tool config ([mcp-toolbox#​2333](https://redirect.github.com/googleapis/mcp-toolbox/issues/2333)) ([15101b1](https://redirect.github.com/googleapis/mcp-toolbox/commit/15101b1edbe2b85a4a5f9f819c23cf83138f4ee1)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **tools/looker:** support `looker-validate-project` tool ([mcp-toolbox#​2430](https://redirect.github.com/googleapis/mcp-toolbox/issues/2430)) ([a15a128](https://redirect.github.com/googleapis/mcp-toolbox/commit/a15a12873f936b0102aeb9500cc3bcd71bb38c34)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Add new `user-agent-metadata` flag ([mcp-toolbox#​2302](https://redirect.github.com/googleapis/mcp-toolbox/issues/2302)) ([adc9589](https://redirect.github.com/googleapis/mcp-toolbox/commit/adc9589766904d9e3cbe0a6399222f8d4bb9d0cc)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Add remaining flag to Toolbox server in MCP registry ([mcp-toolbox#​2272](https://redirect.github.com/googleapis/mcp-toolbox/issues/2272)) ([5e0999e](https://redirect.github.com/googleapis/mcp-toolbox/commit/5e0999ebf5cdd9046e96857738254b2e0561b6d2)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* **deps:** update dependency googleapis/mcp-toolbox to v0.28.0 ([#97](https://github.com/gemini-cli-extensions/looker/issues/97)) ([827a487](https://github.com/gemini-cli-extensions/looker/commit/827a487e88894a94c63caf544702b5bd2cc59d4a))
-* Support combining multiple prebuilt configurations ([mcp-toolbox#​2295](https://redirect.github.com/googleapis/mcp-toolbox/issues/2295)) ([e535b37](https://redirect.github.com/googleapis/mcp-toolbox/commit/e535b372ea81864d644a67135a1b07e4e519b4b4)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Support MCP specs version 2025-11-25 ([mcp-toolbox#​2303](https://redirect.github.com/googleapis/mcp-toolbox/issues/2303)) ([4d23a3b](https://redirect.github.com/googleapis/mcp-toolbox/commit/4d23a3bbf2797b1f7fe328aeb5789e778121da23)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Update configuration file v2 ([mcp-toolbox#​2369](https://redirect.github.com/googleapis/mcp-toolbox/issues/2369))([293c1d6](https://redirect.github.com/googleapis/mcp-toolbox/commit/293c1d6889c39807855ba5e01d4c13ba2a4c50ce)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Update/add detailed telemetry for mcp endpoint compliant with OTEL semantic convention ([mcp-toolbox#​1987](https://redirect.github.com/googleapis/mcp-toolbox/issues/1987)) ([478a0bd](https://redirect.github.com/googleapis/mcp-toolbox/commit/478a0bdb59288c1213f83862f95a698b4c2c0aab)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Validate tool naming ([mcp-toolbox#​2305](https://redirect.github.com/googleapis/mcp-toolbox/issues/2305)) ([5054212](https://redirect.github.com/googleapis/mcp-toolbox/commit/5054212fa43017207fe83275d27b9fbab96e8ab5)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **cli/invoke:** Add support for direct tool invocation from CLI ([mcp-toolbox#​2353](https://redirect.github.com/googleapis/mcp-toolbox/issues/2353)) ([6e49ba4](https://redirect.github.com/googleapis/mcp-toolbox/commit/6e49ba436ef2390c13feaf902b29f5907acffb57)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **cli/skills:** Add support for generating agent skills from toolset ([mcp-toolbox#​2392](https://redirect.github.com/googleapis/mcp-toolbox/issues/2392)) ([80ef346](https://redirect.github.com/googleapis/mcp-toolbox/commit/80ef34621453b77bdf6a6016c354f102a17ada04)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **cloud-logging-admin:** Add source, tools, integration test and docs ([mcp-toolbox#​2137](https://redirect.github.com/googleapis/mcp-toolbox/issues/2137)) ([252fc30](https://redirect.github.com/googleapis/mcp-toolbox/commit/252fc3091af10d25d8d7af7e047b5ac87a5dd041)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **cockroachdb:** Add CockroachDB integration with cockroach-go ([mcp-toolbox#​2006](https://redirect.github.com/googleapis/mcp-toolbox/issues/2006)) ([1fdd99a](https://redirect.github.com/googleapis/mcp-toolbox/commit/1fdd99a9b609a5e906acce414226ff44d75d5975)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **embeddingModel:** Add embedding model to MCP handler ([mcp-toolbox#​2310](https://redirect.github.com/googleapis/mcp-toolbox/issues/2310)) ([e4f60e5](https://redirect.github.com/googleapis/mcp-toolbox/commit/e4f60e56335b755ef55b9553d3f40b31858ec8d9)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **prebuilt/cloud-sql:** Add create backup tool for Cloud SQL ([mcp-toolbox#​2141](https://redirect.github.com/googleapis/mcp-toolbox/issues/2141)) ([8e0fb03](https://redirect.github.com/googleapis/mcp-toolbox/commit/8e0fb0348315a80f63cb47b3c7204869482448f4)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **prebuilt/cloud-sql:** Add restore backup tool for Cloud SQL ([mcp-toolbox#​2171](https://redirect.github.com/googleapis/mcp-toolbox/issues/2171)) ([00c3e6d](https://redirect.github.com/googleapis/mcp-toolbox/commit/00c3e6d8cba54e2ab6cb271c7e6b378895df53e1)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **prebuiltconfigs/alloydb-omni:** Implement Alloydb omni dataplane tools ([mcp-toolbox#​2340](https://redirect.github.com/googleapis/mcp-toolbox/issues/2340)) ([e995349](https://redirect.github.com/googleapis/mcp-toolbox/commit/e995349ea0756c700d188b8f04e9459121219f0c)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **server:** Add Tool call error categories ([mcp-toolbox#​2387](https://redirect.github.com/googleapis/mcp-toolbox/issues/2387)) ([32cb4db](https://redirect.github.com/googleapis/mcp-toolbox/commit/32cb4db712d27579c1bf29e61cbd0bed02286c28)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **tools:** Add `valueFromParam` support to Tool config ([mcp-toolbox#​2333](https://redirect.github.com/googleapis/mcp-toolbox/issues/2333)) ([15101b1](https://redirect.github.com/googleapis/mcp-toolbox/commit/15101b1edbe2b85a4a5f9f819c23cf83138f4ee1)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **tools/looker:** support `looker-validate-project` tool ([mcp-toolbox#​2430](https://redirect.github.com/googleapis/mcp-toolbox/issues/2430)) ([a15a128](https://redirect.github.com/googleapis/mcp-toolbox/commit/a15a12873f936b0102aeb9500cc3bcd71bb38c34)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Add new `user-agent-metadata` flag ([mcp-toolbox#​2302](https://redirect.github.com/googleapis/mcp-toolbox/issues/2302)) ([adc9589](https://redirect.github.com/googleapis/mcp-toolbox/commit/adc9589766904d9e3cbe0a6399222f8d4bb9d0cc)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Add remaining flag to Toolbox server in MCP registry ([mcp-toolbox#​2272](https://redirect.github.com/googleapis/mcp-toolbox/issues/2272)) ([5e0999e](https://redirect.github.com/googleapis/mcp-toolbox/commit/5e0999ebf5cdd9046e96857738254b2e0561b6d2)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.28.0 ([#97](https://github.com/GoogleCloudPlatform/looker-plugin/issues/97)) ([827a487](https://github.com/GoogleCloudPlatform/looker-plugin/commit/827a487e88894a94c63caf544702b5bd2cc59d4a))
+* Support combining multiple prebuilt configurations ([mcp-toolbox#​2295](https://redirect.github.com/googleapis/mcp-toolbox/issues/2295)) ([e535b37](https://redirect.github.com/googleapis/mcp-toolbox/commit/e535b372ea81864d644a67135a1b07e4e519b4b4)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Support MCP specs version 2025-11-25 ([mcp-toolbox#​2303](https://redirect.github.com/googleapis/mcp-toolbox/issues/2303)) ([4d23a3b](https://redirect.github.com/googleapis/mcp-toolbox/commit/4d23a3bbf2797b1f7fe328aeb5789e778121da23)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Update configuration file v2 ([mcp-toolbox#​2369](https://redirect.github.com/googleapis/mcp-toolbox/issues/2369))([293c1d6](https://redirect.github.com/googleapis/mcp-toolbox/commit/293c1d6889c39807855ba5e01d4c13ba2a4c50ce)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Update/add detailed telemetry for mcp endpoint compliant with OTEL semantic convention ([mcp-toolbox#​1987](https://redirect.github.com/googleapis/mcp-toolbox/issues/1987)) ([478a0bd](https://redirect.github.com/googleapis/mcp-toolbox/commit/478a0bdb59288c1213f83862f95a698b4c2c0aab)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Validate tool naming ([mcp-toolbox#​2305](https://redirect.github.com/googleapis/mcp-toolbox/issues/2305)) ([5054212](https://redirect.github.com/googleapis/mcp-toolbox/commit/5054212fa43017207fe83275d27b9fbab96e8ab5)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
 
 
 ### Bug Fixes
 
-* **dataplex:** Capture GCP HTTP errors in MCP Toolbox ([mcp-toolbox#​2347](https://redirect.github.com/googleapis/mcp-toolbox/issues/2347)) ([1d7c498](https://redirect.github.com/googleapis/mcp-toolbox/commit/1d7c4981164c34b4d7bc8edecfd449f57ad11e15)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
-* Surface Dataplex API errors in MCP results ([mcp-toolbox#​2347](https://redirect.github.com/googleapis/mcp-toolbox/pull/2347))([1d7c498](https://redirect.github.com/googleapis/mcp-toolbox/commit/1d7c4981164c34b4d7bc8edecfd449f57ad11e15)) ([e730967](https://github.com/gemini-cli-extensions/looker/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* **dataplex:** Capture GCP HTTP errors in MCP Toolbox ([mcp-toolbox#​2347](https://redirect.github.com/googleapis/mcp-toolbox/issues/2347)) ([1d7c498](https://redirect.github.com/googleapis/mcp-toolbox/commit/1d7c4981164c34b4d7bc8edecfd449f57ad11e15)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
+* Surface Dataplex API errors in MCP results ([mcp-toolbox#​2347](https://redirect.github.com/googleapis/mcp-toolbox/pull/2347))([1d7c498](https://redirect.github.com/googleapis/mcp-toolbox/commit/1d7c4981164c34b4d7bc8edecfd449f57ad11e15)) ([e730967](https://github.com/GoogleCloudPlatform/looker-plugin/commit/e730967f9c8f48b1bcce6dd396f55a32c8f87532))
 
-## [0.1.11](https://github.com/gemini-cli-extensions/looker/compare/0.1.10...0.1.11) (2026-01-28)
-
-
-### Features
-
-* add Configuration settings ([#81](https://github.com/gemini-cli-extensions/looker/issues/81)) ([d294fa3](https://github.com/gemini-cli-extensions/looker/commit/d294fa33a56239a3af4dd74e4c9d0db456c23c45))
-
-## [0.1.10](https://github.com/gemini-cli-extensions/looker/compare/0.1.9...0.1.10) (2026-01-22)
+## [0.1.11](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.10...0.1.11) (2026-01-28)
 
 
 ### Features
 
-* **prebuilt/cloud-sql-mysql:** Update CSQL MySQL prebuilt tools to use IAM ([mcp-toolbox#​2202](https://redirect.github.com/googleapis/mcp-toolbox/issues/2202)) ([731a32e](https://redirect.github.com/googleapis/mcp-toolbox/commit/731a32e5360b4d6862d81fcb27d7127c655679a8)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
-* **snowflake:** Add Snowflake Source and Tools ([mcp-toolbox#​858](https://redirect.github.com/googleapis/mcp-toolbox/issues/858)) ([b706b5b](https://redirect.github.com/googleapis/mcp-toolbox/commit/b706b5bc685aeda277f277868bae77d38d5fd7b6)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
-* **tools/looker:** Add ability to set destination folder with `make_look` and `make_dashboard`. ([mcp-toolbox#​2245](https://redirect.github.com/googleapis/mcp-toolbox/issues/2245)) ([eb79339](https://redirect.github.com/googleapis/mcp-toolbox/commit/eb793398cd1cc4006d9808ccda5dc7aea5e92bd5)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
-* Add `allowed-hosts` flag ([mcp-toolbox#​2254](https://redirect.github.com/googleapis/mcp-toolbox/issues/2254)) ([17b41f6](https://redirect.github.com/googleapis/mcp-toolbox/commit/17b41f64531b8fe417c28ada45d1992ba430dc1b)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
-* Add `embeddingModel` support ([mcp-toolbox#​2121](https://redirect.github.com/googleapis/mcp-toolbox/issues/2121)) ([9c62f31](https://redirect.github.com/googleapis/mcp-toolbox/commit/9c62f313ff5edf0a3b5b8a3e996eba078fba4095)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
-* Add parameter default value to manifest ([mcp-toolbox#​2264](https://redirect.github.com/googleapis/mcp-toolbox/issues/2264)) ([9d1feca](https://redirect.github.com/googleapis/mcp-toolbox/commit/9d1feca10810fa42cb4c94a409252f1bd373ee36)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* add Configuration settings ([#81](https://github.com/GoogleCloudPlatform/looker-plugin/issues/81)) ([d294fa3](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d294fa33a56239a3af4dd74e4c9d0db456c23c45))
+
+## [0.1.10](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.9...0.1.10) (2026-01-22)
+
+
+### Features
+
+* **prebuilt/cloud-sql-mysql:** Update CSQL MySQL prebuilt tools to use IAM ([mcp-toolbox#​2202](https://redirect.github.com/googleapis/mcp-toolbox/issues/2202)) ([731a32e](https://redirect.github.com/googleapis/mcp-toolbox/commit/731a32e5360b4d6862d81fcb27d7127c655679a8)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* **snowflake:** Add Snowflake Source and Tools ([mcp-toolbox#​858](https://redirect.github.com/googleapis/mcp-toolbox/issues/858)) ([b706b5b](https://redirect.github.com/googleapis/mcp-toolbox/commit/b706b5bc685aeda277f277868bae77d38d5fd7b6)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* **tools/looker:** Add ability to set destination folder with `make_look` and `make_dashboard`. ([mcp-toolbox#​2245](https://redirect.github.com/googleapis/mcp-toolbox/issues/2245)) ([eb79339](https://redirect.github.com/googleapis/mcp-toolbox/commit/eb793398cd1cc4006d9808ccda5dc7aea5e92bd5)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* Add `allowed-hosts` flag ([mcp-toolbox#​2254](https://redirect.github.com/googleapis/mcp-toolbox/issues/2254)) ([17b41f6](https://redirect.github.com/googleapis/mcp-toolbox/commit/17b41f64531b8fe417c28ada45d1992ba430dc1b)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* Add `embeddingModel` support ([mcp-toolbox#​2121](https://redirect.github.com/googleapis/mcp-toolbox/issues/2121)) ([9c62f31](https://redirect.github.com/googleapis/mcp-toolbox/commit/9c62f313ff5edf0a3b5b8a3e996eba078fba4095)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* Add parameter default value to manifest ([mcp-toolbox#​2264](https://redirect.github.com/googleapis/mcp-toolbox/issues/2264)) ([9d1feca](https://redirect.github.com/googleapis/mcp-toolbox/commit/9d1feca10810fa42cb4c94a409252f1bd373ee36)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
 
 
 ### Bug Fixes
 
-* **server:** Add `embeddingModel` config initialization ([mcp-toolbox#​2281](https://redirect.github.com/googleapis/mcp-toolbox/issues/2281)) ([a779975](https://redirect.github.com/googleapis/mcp-toolbox/commit/a7799757c9345f99b6d2717841fbf792d364e1a2)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
-* **tools/looker:** Looker client OAuth nil pointer error ([mcp-toolbox#​2231](https://redirect.github.com/googleapis/mcp-toolbox/issues/2231)) ([268700b](https://redirect.github.com/googleapis/mcp-toolbox/commit/268700bdbf8281de0318d60ca613ed3672990b20)) ([578568a](https://github.com/gemini-cli-extensions/looker/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* **server:** Add `embeddingModel` config initialization ([mcp-toolbox#​2281](https://redirect.github.com/googleapis/mcp-toolbox/issues/2281)) ([a779975](https://redirect.github.com/googleapis/mcp-toolbox/commit/a7799757c9345f99b6d2717841fbf792d364e1a2)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
+* **tools/looker:** Looker client OAuth nil pointer error ([mcp-toolbox#​2231](https://redirect.github.com/googleapis/mcp-toolbox/issues/2231)) ([268700b](https://redirect.github.com/googleapis/mcp-toolbox/commit/268700bdbf8281de0318d60ca613ed3672990b20)) ([578568a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/578568a5931e40fc76c2ba6801d31c9dcdb64638))
 
-## [0.1.9](https://github.com/gemini-cli-extensions/looker/compare/0.1.8...0.1.9) (2025-12-19)
-
-
-### Features
-
-* **deps:** update dependency googleapis/mcp-toolbox to v0.24.0 ([#77](https://github.com/gemini-cli-extensions/looker/issues/77)) ([39240de](https://github.com/gemini-cli-extensions/looker/commit/39240dec64b7b7684e53a96401fc36fb8292f502))
-
-## [0.1.8](https://github.com/gemini-cli-extensions/looker/compare/0.1.7...0.1.8) (2025-12-12)
+## [0.1.9](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.8...0.1.9) (2025-12-19)
 
 
 ### Features
 
-* **deps:** update dependency googleapis/mcp-toolbox to v0.23.0 ([#73](https://github.com/gemini-cli-extensions/looker/issues/73)) ([f0e3bc0](https://github.com/gemini-cli-extensions/looker/commit/f0e3bc0daf2d5190808a33009b9ed3f64b4ef858))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.24.0 ([#77](https://github.com/GoogleCloudPlatform/looker-plugin/issues/77)) ([39240de](https://github.com/GoogleCloudPlatform/looker-plugin/commit/39240dec64b7b7684e53a96401fc36fb8292f502))
 
-## [0.1.7](https://github.com/gemini-cli-extensions/looker/compare/0.1.6...0.1.7) (2025-12-05)
+## [0.1.8](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.7...0.1.8) (2025-12-12)
 
 
 ### Features
 
-* **prebuilt/cloud-sql:** Add clone instance tool for cloud sql ([mcp-toolbox#​1845](https://redirect.github.com/googleapis/mcp-toolbox/issues/1845)) ([5e43630](https://redirect.github.com/googleapis/mcp-toolbox/commit/5e43630907aa2d7bc6818142483a33272eab060b)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* **serverless-spark:** Add create\_pyspark\_batch tool ([1bf0b51](https://redirect.github.com/googleapis/mcp-toolbox/commit/1bf0b51f033c956790be1577bf5310d0b17e9c12)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* **serverless-spark:** Add create\_spark\_batch tool ([17a9792](https://redirect.github.com/googleapis/mcp-toolbox/commit/17a979207dbc4fe70acd0ebda164d1a8d34c1ed3)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* Support alternate accessToken header name ([mcp-toolbox#​1968](https://redirect.github.com/googleapis/mcp-toolbox/issues/1968)) ([18017d6](https://redirect.github.com/googleapis/mcp-toolbox/commit/18017d6545335a6fc1c472617101c35254d9a597)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* Support for annotations ([mcp-toolbox#​2007](https://redirect.github.com/googleapis/mcp-toolbox/issues/2007)) ([ac21335](https://redirect.github.com/googleapis/mcp-toolbox/commit/ac21335f4e88ca52d954d7f8143a551a35661b94)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.23.0 ([#73](https://github.com/GoogleCloudPlatform/looker-plugin/issues/73)) ([f0e3bc0](https://github.com/GoogleCloudPlatform/looker-plugin/commit/f0e3bc0daf2d5190808a33009b9ed3f64b4ef858))
+
+## [0.1.7](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.6...0.1.7) (2025-12-05)
+
+
+### Features
+
+* **prebuilt/cloud-sql:** Add clone instance tool for cloud sql ([mcp-toolbox#​1845](https://redirect.github.com/googleapis/mcp-toolbox/issues/1845)) ([5e43630](https://redirect.github.com/googleapis/mcp-toolbox/commit/5e43630907aa2d7bc6818142483a33272eab060b)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* **serverless-spark:** Add create\_pyspark\_batch tool ([1bf0b51](https://redirect.github.com/googleapis/mcp-toolbox/commit/1bf0b51f033c956790be1577bf5310d0b17e9c12)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* **serverless-spark:** Add create\_spark\_batch tool ([17a9792](https://redirect.github.com/googleapis/mcp-toolbox/commit/17a979207dbc4fe70acd0ebda164d1a8d34c1ed3)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* Support alternate accessToken header name ([mcp-toolbox#​1968](https://redirect.github.com/googleapis/mcp-toolbox/issues/1968)) ([18017d6](https://redirect.github.com/googleapis/mcp-toolbox/commit/18017d6545335a6fc1c472617101c35254d9a597)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* Support for annotations ([mcp-toolbox#​2007](https://redirect.github.com/googleapis/mcp-toolbox/issues/2007)) ([ac21335](https://redirect.github.com/googleapis/mcp-toolbox/commit/ac21335f4e88ca52d954d7f8143a551a35661b94)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
 
 
 ### Bug Fixes
 
-* Add import for firebirdsql ([mcp-toolbox#​2045](https://redirect.github.com/googleapis/mcp-toolbox/issues/2045)) ([fb7aae9](https://redirect.github.com/googleapis/mcp-toolbox/commit/fb7aae9d35b760d3471d8379642f835a0d84ec41)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* Correct FAQ to mention HTTP tools ([mcp-toolbox#​2036](https://redirect.github.com/googleapis/mcp-toolbox/issues/2036)) ([7b44237](https://redirect.github.com/googleapis/mcp-toolbox/commit/7b44237d4a21bfbf8d3cebe4d32a15affa29584d)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* Format BigQuery numeric output as decimal strings ([mcp-toolbox#​2084](https://redirect.github.com/googleapis/mcp-toolbox/issues/2084)) ([155bff8](https://redirect.github.com/googleapis/mcp-toolbox/commit/155bff80c1da4fae1e169e425fd82e1dc3373041)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
-* Set default annotations for tools in code if annotation not provided in yaml ([mcp-toolbox#​2049](https://redirect.github.com/googleapis/mcp-toolbox/issues/2049)) ([565460c](https://redirect.github.com/googleapis/mcp-toolbox/commit/565460c4ea8953dbe80070a8e469f957c0f7a70c)) ([7e9c8cc](https://github.com/gemini-cli-extensions/looker/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* Add import for firebirdsql ([mcp-toolbox#​2045](https://redirect.github.com/googleapis/mcp-toolbox/issues/2045)) ([fb7aae9](https://redirect.github.com/googleapis/mcp-toolbox/commit/fb7aae9d35b760d3471d8379642f835a0d84ec41)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* Correct FAQ to mention HTTP tools ([mcp-toolbox#​2036](https://redirect.github.com/googleapis/mcp-toolbox/issues/2036)) ([7b44237](https://redirect.github.com/googleapis/mcp-toolbox/commit/7b44237d4a21bfbf8d3cebe4d32a15affa29584d)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* Format BigQuery numeric output as decimal strings ([mcp-toolbox#​2084](https://redirect.github.com/googleapis/mcp-toolbox/issues/2084)) ([155bff8](https://redirect.github.com/googleapis/mcp-toolbox/commit/155bff80c1da4fae1e169e425fd82e1dc3373041)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
+* Set default annotations for tools in code if annotation not provided in yaml ([mcp-toolbox#​2049](https://redirect.github.com/googleapis/mcp-toolbox/issues/2049)) ([565460c](https://redirect.github.com/googleapis/mcp-toolbox/commit/565460c4ea8953dbe80070a8e469f957c0f7a70c)) ([7e9c8cc](https://github.com/GoogleCloudPlatform/looker-plugin/commit/7e9c8cc4322e71fc239ec340667969bb47539365))
 
-## [0.1.6](https://github.com/gemini-cli-extensions/looker/compare/0.1.5...0.1.6) (2025-11-20)
-
-
-### Features
-
-* **deps:** update dependency googleapis/mcp-toolbox to v0.21.0 ([#67](https://github.com/gemini-cli-extensions/looker/issues/67)) ([4bfb3ae](https://github.com/gemini-cli-extensions/looker/commit/4bfb3ae8d98ed3977f20809c5cc7bf94a69c616c))
-
-## [0.1.5](https://github.com/gemini-cli-extensions/looker/compare/0.1.4...0.1.5) (2025-11-14)
+## [0.1.6](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.5...0.1.6) (2025-11-20)
 
 
 ### Features
 
-* **tool/looker-generate-embed-url:** Adding generate embed url tool ([mcp-toolbox#​1877](https://redirect.github.com/googleapis/mcp-toolbox/issues/1877)) ([ef63860](https://redirect.github.com/googleapis/mcp-toolbox/commit/ef63860559798fbad54c1051d9f53bce42d66464)) ([893f6ec](https://github.com/gemini-cli-extensions/looker/commit/893f6ec439b876d6d0be529d857ad2505b6dce14))
-* Added prompt support for toolbox ([mcp-toolbox#​1798](https://redirect.github.com/googleapis/mcp-toolbox/issues/1798)) ([cd56ea4](https://redirect.github.com/googleapis/mcp-toolbox/commit/cd56ea44fbdd149fcb92324e70ee36ac747635db)) ([893f6ec](https://github.com/gemini-cli-extensions/looker/commit/893f6ec439b876d6d0be529d857ad2505b6dce14))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.21.0 ([#67](https://github.com/GoogleCloudPlatform/looker-plugin/issues/67)) ([4bfb3ae](https://github.com/GoogleCloudPlatform/looker-plugin/commit/4bfb3ae8d98ed3977f20809c5cc7bf94a69c616c))
 
-## [0.1.4](https://github.com/gemini-cli-extensions/looker/compare/0.1.3...0.1.4) (2025-11-07)
+## [0.1.5](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.4...0.1.5) (2025-11-14)
 
 
 ### Features
 
-* **tools/looker-run-dashboard:** New `run_dashboard` tool ([mcp-toolbox#​1858](https://redirect.github.com/googleapis/mcp-toolbox/issues/1858)) ([30857c2](https://redirect.github.com/googleapis/mcp-toolbox/commit/30857c2294bb14961d3be49e2c368c69ecf844ec)) ([d39e5d3](https://github.com/gemini-cli-extensions/looker/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
-* **tools/looker-run-look:** Modify run\_look to show query origin ([mcp-toolbox#​1860](https://redirect.github.com/googleapis/mcp-toolbox/issues/1860)) ([991e539](https://redirect.github.com/googleapis/mcp-toolbox/commit/991e539f9c7978fa618ada3179a0b656c33ff501)) ([d39e5d3](https://github.com/gemini-cli-extensions/looker/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
-* **tools/looker:** Tools to retrieve the connections, schemas, databases, and column metadata from a looker system. ([mcp-toolbox#​1804](https://redirect.github.com/googleapis/mcp-toolbox/issues/1804)) ([d7d1b03](https://redirect.github.com/googleapis/mcp-toolbox/commit/d7d1b03f3b746ed748d67f67e833457d55c846ab)) ([d39e5d3](https://github.com/gemini-cli-extensions/looker/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
+* **tool/looker-generate-embed-url:** Adding generate embed url tool ([mcp-toolbox#​1877](https://redirect.github.com/googleapis/mcp-toolbox/issues/1877)) ([ef63860](https://redirect.github.com/googleapis/mcp-toolbox/commit/ef63860559798fbad54c1051d9f53bce42d66464)) ([893f6ec](https://github.com/GoogleCloudPlatform/looker-plugin/commit/893f6ec439b876d6d0be529d857ad2505b6dce14))
+* Added prompt support for toolbox ([mcp-toolbox#​1798](https://redirect.github.com/googleapis/mcp-toolbox/issues/1798)) ([cd56ea4](https://redirect.github.com/googleapis/mcp-toolbox/commit/cd56ea44fbdd149fcb92324e70ee36ac747635db)) ([893f6ec](https://github.com/GoogleCloudPlatform/looker-plugin/commit/893f6ec439b876d6d0be529d857ad2505b6dce14))
+
+## [0.1.4](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.3...0.1.4) (2025-11-07)
+
+
+### Features
+
+* **tools/looker-run-dashboard:** New `run_dashboard` tool ([mcp-toolbox#​1858](https://redirect.github.com/googleapis/mcp-toolbox/issues/1858)) ([30857c2](https://redirect.github.com/googleapis/mcp-toolbox/commit/30857c2294bb14961d3be49e2c368c69ecf844ec)) ([d39e5d3](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
+* **tools/looker-run-look:** Modify run\_look to show query origin ([mcp-toolbox#​1860](https://redirect.github.com/googleapis/mcp-toolbox/issues/1860)) ([991e539](https://redirect.github.com/googleapis/mcp-toolbox/commit/991e539f9c7978fa618ada3179a0b656c33ff501)) ([d39e5d3](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
+* **tools/looker:** Tools to retrieve the connections, schemas, databases, and column metadata from a looker system. ([mcp-toolbox#​1804](https://redirect.github.com/googleapis/mcp-toolbox/issues/1804)) ([d7d1b03](https://redirect.github.com/googleapis/mcp-toolbox/commit/d7d1b03f3b746ed748d67f67e833457d55c846ab)) ([d39e5d3](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
 
 
 ### Bug Fixes
 
-* Instructions to quote filters that include commas ([mcp-toolbox#​1794](https://redirect.github.com/googleapis/mcp-toolbox/issues/1794)) ([4b01720](https://redirect.github.com/googleapis/mcp-toolbox/commit/4b0172083c0dd4c71098d4e0ab5fa0b16ea0d830)) ([d39e5d3](https://github.com/gemini-cli-extensions/looker/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
+* Instructions to quote filters that include commas ([mcp-toolbox#​1794](https://redirect.github.com/googleapis/mcp-toolbox/issues/1794)) ([4b01720](https://redirect.github.com/googleapis/mcp-toolbox/commit/4b0172083c0dd4c71098d4e0ab5fa0b16ea0d830)) ([d39e5d3](https://github.com/GoogleCloudPlatform/looker-plugin/commit/d39e5d3a1d5d21190734a6f909ffba7cce49ed36))
 
-## [0.1.3](https://github.com/gemini-cli-extensions/looker/compare/0.1.2...0.1.3) (2025-10-23)
+## [0.1.3](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.2...0.1.3) (2025-10-23)
 
 
 ### Features
 
-* **tools/looker:** Tools to allow the agent to retrieve, create, modify, and delete LookML project files. ([#1673](https://redirect.github.com/googleapis/mcp-toolbox/issues/1673)) ([089081f](https://redirect.github.com/googleapis/mcp-toolbox/commit/089081feb0e32f9eb65d00df5987392d413a4081)) ([a7bf223](https://github.com/gemini-cli-extensions/looker/commit/a7bf223b5b91ae2833b75239ba0cc0a3d0b91ba4))
-* Support `allowedValues`, `escape`, `minValue` and `maxValue` for parameters ([#1770](https://redirect.github.com/googleapis/mcp-toolbox/issues/1770)) ([eaf7740](https://redirect.github.com/googleapis/mcp-toolbox/commit/eaf77406fd386c12315d67eb685dc69e0415c516)) ([a7bf223](https://github.com/gemini-cli-extensions/looker/commit/a7bf223b5b91ae2833b75239ba0cc0a3d0b91ba4))
+* **tools/looker:** Tools to allow the agent to retrieve, create, modify, and delete LookML project files. ([#1673](https://redirect.github.com/googleapis/mcp-toolbox/issues/1673)) ([089081f](https://redirect.github.com/googleapis/mcp-toolbox/commit/089081feb0e32f9eb65d00df5987392d413a4081)) ([a7bf223](https://github.com/GoogleCloudPlatform/looker-plugin/commit/a7bf223b5b91ae2833b75239ba0cc0a3d0b91ba4))
+* Support `allowedValues`, `escape`, `minValue` and `maxValue` for parameters ([#1770](https://redirect.github.com/googleapis/mcp-toolbox/issues/1770)) ([eaf7740](https://redirect.github.com/googleapis/mcp-toolbox/commit/eaf77406fd386c12315d67eb685dc69e0415c516)) ([a7bf223](https://github.com/GoogleCloudPlatform/looker-plugin/commit/a7bf223b5b91ae2833b75239ba0cc0a3d0b91ba4))
 
 
 ### Bug Fixes
 
-* **tools/looker:** Looker file content calls should not use url.QueryEscape ([#1758](https://redirect.github.com/googleapis/mcp-toolbox/issues/1758)) ([336de1b](https://redirect.github.com/googleapis/mcp-toolbox/commit/336de1bd04b869d322c0fd1f4667eb652159d791)) ([a7bf223](https://github.com/gemini-cli-extensions/looker/commit/a7bf223b5b91ae2833b75239ba0cc0a3d0b91ba4))
+* **tools/looker:** Looker file content calls should not use url.QueryEscape ([#1758](https://redirect.github.com/googleapis/mcp-toolbox/issues/1758)) ([336de1b](https://redirect.github.com/googleapis/mcp-toolbox/commit/336de1bd04b869d322c0fd1f4667eb652159d791)) ([a7bf223](https://github.com/GoogleCloudPlatform/looker-plugin/commit/a7bf223b5b91ae2833b75239ba0cc0a3d0b91ba4))
 
-## [0.1.2](https://github.com/gemini-cli-extensions/looker/compare/0.1.1...0.1.2) (2025-10-14)
-
-
-### Features
-
-* **deps:** update dependency googleapis/mcp-toolbox to v0.17.0 ([#36](https://github.com/gemini-cli-extensions/looker/issues/36)) ([3be2ef9](https://github.com/gemini-cli-extensions/looker/commit/3be2ef924ec17451335eb0504a1587234e9bd5fe))
-
-## [0.1.1](https://github.com/gemini-cli-extensions/looker/compare/0.1.0...0.1.1) (2025-09-30)
+## [0.1.2](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.1...0.1.2) (2025-10-14)
 
 
 ### Features
 
-* additional instructions for the context file ([#25](https://github.com/gemini-cli-extensions/looker/issues/25)) ([f1b1d89](https://github.com/gemini-cli-extensions/looker/commit/f1b1d8953d586121cf5b0acacaf899b494a8ce5f))
-* standardize mcp server names ([#22](https://github.com/gemini-cli-extensions/looker/issues/22)) ([b2497a5](https://github.com/gemini-cli-extensions/looker/commit/b2497a55ebf5456d1b7eb2be138e09c8a5dce55f))
+* **deps:** update dependency googleapis/mcp-toolbox to v0.17.0 ([#36](https://github.com/GoogleCloudPlatform/looker-plugin/issues/36)) ([3be2ef9](https://github.com/GoogleCloudPlatform/looker-plugin/commit/3be2ef924ec17451335eb0504a1587234e9bd5fe))
+
+## [0.1.1](https://github.com/GoogleCloudPlatform/looker-plugin/compare/0.1.0...0.1.1) (2025-09-30)
+
+
+### Features
+
+* additional instructions for the context file ([#25](https://github.com/GoogleCloudPlatform/looker-plugin/issues/25)) ([f1b1d89](https://github.com/GoogleCloudPlatform/looker-plugin/commit/f1b1d8953d586121cf5b0acacaf899b494a8ce5f))
+* standardize mcp server names ([#22](https://github.com/GoogleCloudPlatform/looker-plugin/issues/22)) ([b2497a5](https://github.com/GoogleCloudPlatform/looker-plugin/commit/b2497a55ebf5456d1b7eb2be138e09c8a5dce55f))
 
 ## 0.1.0 (2025-09-21)
 
 
 ### Features
 
-* Initial Looker configuration ([#2](https://github.com/gemini-cli-extensions/looker/issues/2)) ([b4c9e7a](https://github.com/gemini-cli-extensions/looker/commit/b4c9e7afc5cd952c0bb4ede69da99db167b55a8d))
+* Initial Looker configuration ([#2](https://github.com/GoogleCloudPlatform/looker-plugin/issues/2)) ([b4c9e7a](https://github.com/GoogleCloudPlatform/looker-plugin/commit/b4c9e7afc5cd952c0bb4ede69da99db167b55a8d))
