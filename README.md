@@ -67,7 +67,7 @@ To start interacting with your database, install the extension for your preferre
 
 For the latest version, check the [releases page][releases].
 
-[releases]: https://github.com/gemini-cli-extensions/looker/releases
+[releases]: https://github.com/GoogleCloudPlatform/looker-plugin/releases
 
 <!-- {x-release-please-start-version} -->
 
@@ -97,7 +97,7 @@ See <a href="https://antigravity.google/docs/gcli-migration">Migrating from Gemi
 Install the plugin directly from the remote GitHub repository:
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/looker
+agy plugin install https://github.com/GoogleCloudPlatform/looker-plugin
 ```
 
 **2. Set env vars:**
@@ -112,7 +112,7 @@ You can install plugins directly from a remote GitHub repository.
 **1. Install the plugin:**
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/looker
+agy plugin install https://github.com/GoogleCloudPlatform/looker-plugin
 ```
 
 **2. Set env vars:**
@@ -172,7 +172,7 @@ codex plugin marketplace upgrade data-cloud-plugins
 This repository is a valid [Agent Plugins](https://github.com/agentplugins/agent-plugins-spec) (v1) plugin. Any [Agent Plugins–compatible client](https://agent-plugins.org/compatible-clients) can install it directly using its own built-in plugin command — no extra tooling required — by pointing at this repository:
 
 ```
-https://github.com/gemini-cli-extensions/looker
+https://github.com/GoogleCloudPlatform/looker-plugin
 ```
 
 Beyond harnesses covered by the native install above, compatible clients include VS Code, Cursor, GitHub Copilot, and Kiro. See your agent's documentation for its exact install command.

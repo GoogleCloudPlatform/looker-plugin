@@ -7,7 +7,7 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "homepage": "https://cloud.google.com/looker",
-  "repository": "https://github.com/gemini-cli-extensions/looker",
+  "repository": "https://github.com/GoogleCloudPlatform/looker-plugin",
   "license": "Apache-2.0",
   "userConfig": {
     "looker_base_url": {
